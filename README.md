@@ -1,24 +1,31 @@
 # WalletChecker
-have you ever seen those wallet checker apps that when you install it checks a lot of 12-word seeds with a connected wallet and tells you if it has some funds or its empty? there are a lot of them even here on github. 
-<br>
-<br>literally all of them are something like this: 
-<br>&emsp;1.you install their app, no virus(mostly), everything looks good.
-<br>&emsp;2.you start checking random seeds
-<br>&emsp;3.after some time you see a seed's wallet with some funds.
-<br>&emsp;4.you cant see the full seed so you cant access those funds
-<br>&emsp;5.you need to "buy" the app with an extreme price to unlock the "full seed" feature.
-<br>&emsp;6.you pay because you literally found a 1000$ btc wallet and you just need to pay like 200$ first.
-<br>&emsp;&emsp;7-1-1.you get the seed.
-<br>&emsp;&emsp;7-1-2.you see there is literally nothing on that wallet at all.
-<br>&emsp;&emsp;7-1-3.congrats you got scammed.
-<br>&emsp;7-2-1.you dont get anything at all - the app stops working or does not find any wallets.
-<br>&emsp;7-2-2.you got scammed again.
-<br>
-<br>if you want to see some of these apps just search "bitcoin hacking" tag in github (even if you see the source codes of those apps it will never work, either the source codes are not complete or its just a random shit to prove their app is legit. im sure the only near working(in theory) wallet checker is going to be something like mine here).
-<br>
-<br>RELATED:
-<br>&emsp;1.i havent paid anything for such apps, i just researched like any other normal human would do if he sees something this unbelievable.
-<br>&emsp;2.to prove its not possible to get a wallet with funds when you randomly checking everything, i kept the code running for something around 5 days, and it checked 50,000,000 wallets.
-<br>&emsp;3.there are 2048 unique seed words so at the end the amount of possible bitcoin wallets is 2048¹² which is 5,444,517,870,735,015,415,413,993,718,908,291,383,296 in total and the chance of you finding one with funds is the same as you read the whole number the first time.
-<br>&emsp;4.now dont be sad knowing you cant wake up having 100,000$ in a wallet you stole, you may get something far better than cash in your life, knowledge.
-<br>&emsp;5.its not a good idea to keep running the code for a long time because its kind of spam checking the wallets no one even uses. you may just expriement with cryptos stuff.
+
+Have you ever seen those wallet checker apps that, when installed, check a lot of 12-word seeds with a connected wallet and tell you if it has some funds or is empty? There are a lot of them, even here on GitHub. 
+
+Literally, all of them operate like this: 
+
+1. You install their app. No virus (mostly). Everything looks good.
+2. You start checking random seeds.
+3. After some time, you see a seed's wallet with some funds.
+4. You can't see the full seed, so you can't access those funds.
+5. You need to "buy" the app at an extreme price to unlock the "full seed" feature.
+6. You pay because you found a $1,000 BTC wallet, and you just need to pay $200 first.
+   
+    **7-1:** 
+    - You get the seed.
+    - You see there is literally nothing in that wallet.
+    - Congrats, you got scammed.
+    
+    **7-2:**
+    - You don't get anything at all. The app stops working or does not find any wallets.
+    - You got scammed again.
+
+If you want to see some of these apps, just search "bitcoin hacking" tag on GitHub. Even if you see the source codes of those apps, they will never work. Either the source codes are incomplete, or it’s just random stuff to prove their app is legit. I'm sure the only near-working (in theory) wallet checker is going to be something like mine here.
+
+### Related
+
+1. I haven't paid anything for such apps. I just researched like any other normal human would if they saw something this unbelievable.
+2. To prove it's not possible to get a wallet with funds when randomly checking everything, I kept the code running for about 5 days, and it checked 50,000,000 wallets.
+3. There are 2048 unique seed words, so the total amount of possible bitcoin wallets is 2048¹², which is 5,444,517,870,735,015,415,413,993,718,908,291,383,296 in total. The chance of you finding one with funds is the same as you reading this whole number correctly on the first try.
+4. Now don't be sad knowing you can't wake up to $100,000 in a wallet you stole. You may get something far better than cash in your life: knowledge.
+5. It's not a good idea to keep running the code for a long time because it's essentially spam-checking wallets no one even uses. You may just experiment with crypto stuff.
